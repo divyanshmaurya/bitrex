@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
 .jumbotron {
 	height: 100vh;
 	background-color: rgba(255,255,255,0.00);
@@ -37,17 +45,17 @@
 	z-index: 5;
 }
 .card-custom {
-	min-width: 290px;
 	max-width: 350px;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .card-custom-modal {
-	min-width: 200px;
+    margin-left: 25px;
 	max-width: 250px;
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
+    height: 130%;
 }
 
 .card-header-modal {
@@ -130,3 +138,35 @@ a :focus {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+.footer {
+	position: sticky;
+	width: 100%;
+	z-index: 5;
+	left: 0;
+	margin: 0;
+}
+
+.footer-section {
+	margin: 25px;
+}
+
+
+@media (max-width:767px) {
+    #title-institute {
+        font-size: 20px;
+    }
+    
+
+    .hover-div {
+    opacity: 0.7;
+    text-outline: 1px solid black;
+    }
+    
+    .text-center {
+    }
+
+    
+}
+
+
