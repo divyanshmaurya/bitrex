@@ -130,3 +130,15 @@ a :focus {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+.footer {
+	position: sticky;
+	width: 100%;
+	z-index: 5;
+	left: 0;
+	margin: 0;
+}
+
+.footer-section {
+	margin: 25px;
+}
