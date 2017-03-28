@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body {
+    font-family: 'Lato', 'sans-serif';
+    color: white;
+    background-color: black;
+}
+
+
+body h1 {
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.one-edge-shadow {
+    -webkit-box-shadow: 0 5px 3px grey;
+       -moz-box-shadow: 0 5px 3px grey;
+            box-shadow: 0 5px 3px grey;
+}
+
+
+.accent_bg {
+    background-color: #375A7F;   
+}
+
+.nav-item-custom {
+    font-size: 14px;
+}
+@font-face {
+    font-family: 'bitlow';
+    src: url(../font/bitlow.ttf);
+}
+.bitlow-font {
+    font-family: bitlow;
+}
+
+#contests {
+    color: black;
+    background-color:#E6E6E6;
+    content: "\201C"
+}
+
+
+.custom_pills {
+    
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+     color:#2b2b2b;
+    font-weight: bold;
+}
+
+
+.blockquote {
+    font-family: 'Georgia';
+    font-style: italic;
+    margin: 0.25em 0;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+    border-left: none;
+}
+
+#secondPara{
+    font-size: 20px;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    color: #e6e6e6;
+    cursor: default;
+    background-color: black;
+}
+
+
+#navbar_main {
+    background:#375A7F;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open > .nav-link
+{
+    color: white;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    
+    color: white;
+}
+#contestForm{
+    display: none;
+}
+
+.footer {
+    background-color: #0f2133;
+	position: sticky;
+	width: 100%;
+	z-index: 5;
+	left: 0;
+	margin: 0;
+    color: white;
+}
+
+.footer-section {
+	margin: 25px;
+}
+#gamingNav > a{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
