@@ -101,7 +101,7 @@
 			        info++;
 			        	if(info >= 3){
 			        		$("#more_fields").hide();
-			        		$('div#team').remove();
+			        		
 			        	}
 			    		}
     				}
