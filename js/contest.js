@@ -124,7 +124,7 @@ function l_add_fields() {
         var objTo = document.getElementById('l_additionalFields');
         var divtest = document.createElement("div");
         var x = l_info + 1;
-        divtest.innerHTML = '<div class="form-group row l" style="margin-top: 20px;" id="launch-email-' + x + '"><label for="example-text-input" class="col-2 col-form-label">Participant ' + x + '</label><div class="col-10"><input class="form-control" type="text" placeholder="email-id" id="example-text-input"></div></div>';
+        divtest.innerHTML = '<div class="form-group row l" style="margin-top: 20px;"><label for="launch-email-' + x + '" class="col-2 col-form-label">Participant ' + x + '</label><div class="col-10"><input class="form-control" type="text" placeholder="Email ID" id="launch-email-' + x + '"></div></div>';
         console.log(divtest.innerHTML)
         objTo.appendChild(divtest);
         l_info++;
@@ -157,7 +157,7 @@ function add_fields() {
         var objTo = document.getElementById('additionalFields');
         var divtest = document.createElement("div");
         var x = info + 1;
-        divtest.innerHTML = '<div class="form-group row p" style="margin-top: 20px;" id="homepage-email-' + x + '"><label for="example-text-input" class="col-2 col-form-label">Participant ' + x + '</label><div class="col-10"><input class="form-control" type="text" placeholder="email-id" id="example-text-input"></div></div>';
+        divtest.innerHTML = '<div class="form-group row p" style="margin-top: 20px;"><label for="homepage-email-' + x + '" class="col-2 col-form-label">Participant ' + x + '</label><div class="col-10"><input class="form-control" type="text" placeholder="Email ID" id="homepage-email-' + x + '"></div></div>';
         console.log(divtest.innerHTML);
         objTo.appendChild(divtest);
         info++;
