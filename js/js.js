@@ -38,5 +38,3 @@ $(document).ready(function (e) {
 		}
 	});
 });
-
-$('#register').hide();
