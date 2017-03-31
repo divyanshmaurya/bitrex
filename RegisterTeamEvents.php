@@ -84,10 +84,18 @@ class RegisterTeamEvents {
     }
    
      public function getJsonResult(){
-       echo  json_encode(array(
-                   "teamName"=>$this->registerTeamResult,
-                    "teamMembers"=>$this->registerTeamMembersResult,
-                    "eventName"=> $this->registerEventResult));
+       $msg=array();
+       if($this->registerEventResult['email_exist']==0){
+           $msg=array('err'=>'Please Register for fest first.');
+       }
+       else if($this->registerEventResult['row_count']!=1){
+           $msg=array('err'=>'Some database error occured.');
+       }
+       else{
+           $msg=array('msg'=>"Regsitration Successfull.");
+       }
+           
+       echo  json_encode($msg);
        
        
      // echo json_encode(array("msg"=>"hello"));
@@ -105,13 +113,13 @@ if($registerTeamEvents->isTeamIDValid()){
     $registerTeamEvents->registerTeamMembers();
 }
  else {
-     echo 'invalid';
+     echo json_encode(array('err'=>"Team already Exist."));
 }
 if($registerTeamEvents->checkMembersSuccessfullyRegistered()){
     $registerTeamEvents->registerTeamForEvent();
 }
 else{
-    'members not successfully added';
+   echo json_encode(array('err'=>"Error while adding members")); 
 }
 
 $registerTeamEvents->getJsonResult();

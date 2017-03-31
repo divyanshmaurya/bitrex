@@ -9,7 +9,6 @@ $(document).ready(function(e){
         validateTeamName(text);
    });
 });
-
 var validatePhone=function(text){
     console.log(regPhone.test(text));
     return regPhone.test(text);

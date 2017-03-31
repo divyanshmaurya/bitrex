@@ -34,6 +34,7 @@ class CheckTeamNameExists {
         $this->result= $this->databaseObj->getResultantRow();
     }
     public function getJsonResult(){
+        
         echo json_encode($this->result);
     }
 }
