@@ -158,7 +158,9 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12" style="margin-top: 10px;margin-bottom: 20px;">
-                                <h3><a>Register Now&nbsp&nbsp&nbsp<i class="fa fa-arrow-down" aria-hidden="true"></i></a></h3>
+                                <h3><a>Register Now&nbsp&nbsp&nbsp<i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                <small><span id="warnings" style="color:red">PAsswords not mthfc</span></small>
+                                </h3>
                                 <form class="form-inline" style="margin-top: 30px;margin-bottom: 20px;">
                                     <label class="sr-only" for="email-algoholic">Email</label>
                                     <div class="input-group mb-2 mr-sm-2 mb-sm-0 col-md-5">
@@ -199,21 +201,21 @@
                                     <label for="quiz-team-name" class="col-2 col-form-label"><b>Team Name</b></label>
                                     <div class="input-group col-10">
                                         <input class="form-control" type="text" placeholder="Name of the team" id="quiz-team-name">
-                                        <span class="input-group-addon" style="background-color:#84c984;"><i class="fa fa-check" aria-hidden="true" ></i></span>
+                                        <span class="input-group-addon"><i class="fa fa-check" aria-hidden="true" ></i></span>
                                     </div>
                                 </div>
                                 <div class="form-group row" style="margin-top: 20px;">
                                     <label for="quiz-email-1" class="col-2 col-form-label">Participant 1</label>
                                     <div class="input-group col-10">
                                         <input class="form-control" type="text" placeholder="Email ID" id="quiz-email-1">
-                                        <span class="input-group-addon "><i class="fa fa-spinner fa-spin"></i></span>
+                                        <span class="input-group-addon "><i class="fa fa-circle-o-notch fa-spin"></i></span>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="quiz-email-2" class="col-2 col-form-label">Participant 2</label>
                                     <div class="input-group col-10 ">
                                         <input class="form-control" type="text" placeholder="Email ID" id="quiz-email-2">
-                                        <span class="input-group-addon" style="background-color: #ea7470;"><i class="fa fa fa-times"></i></span>	
+                                        <span class="input-group-addon"><i class="fa fa-close"></i></span>	
                                     </div> 
                                   
                                 </div> 
@@ -243,7 +245,8 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12" style="margin-top: 10px;margin-bottom: 20px;" id="hunt-form-div">
-                                <h3><a>Register Now&nbsp&nbsp&nbsp<i class="fa fa-arrow-down" aria-hidden="true"></i></a></h3>
+                                <h3><a>Register Now&nbsp&nbsp&nbsp<i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+                                </h3>
                                 <div class="form-group row" style="margin-top: 20px;">
                                     <label for="hunt-team-name" class="col-2 col-form-label"><b>Team Name</b></label>
                                     <div class="col-10">
@@ -684,8 +687,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <script src="js/contest.js"></script>
+
+<script src="css/form_handling.js"></script>
+
+<!--
+
 <script src="js/contestRegister.js"></script>
 <script src="js/contestTeamRegister.js"></script>
 <script src="js/checkTeamExists.js"></script>
+-->
+
 </body>
 </html>
