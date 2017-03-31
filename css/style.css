@@ -168,3 +168,23 @@ a :focus {
 
     
 }
+
+.input-hidden {
+	position: absolute;
+	left: -9999px;
+}
+.input-hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+input[type=radio]:checked + label>img {
+	border: 1px solid #375a7f;
+	box-shadow: 0 0 3px 3px #375a7f;
+}
+
+/* Stuff after this is only to make things more pretty */
+input[type=radio] + label>img {
+
+	transition: 500ms all;
+}
