@@ -141,19 +141,91 @@
 <section id="register">
     <div class="panel-custom top-padded">
         <h1 class="display-2 text-center">Register Now!</h1>
-        <br/>
-        <br/>
-        <div class="row">
-            <div class="col-sm-5"></div>
-            <div class="col-sm-2"><a href="#modal-register" data-toggle="modal"
-                                     style="text-decoration: none; color: white;">
-                <div class="card card-primary">
-                    <div class="card-block text-center">Register</div>
-                </div>
-            </a></div>
-            <div class="col-sm-5"></div>
-        </div>
-    </div>
+        <div class="panel-custom top-padded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8"> <br>
+                        <legend class="text-center">Fill in your details</legend>
+                        <br>
+                        <br>
+                        <form>
+                            <fieldset>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-label" id="exampleInputPassword1" placeholder="Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="University">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="College/Institute/Faculty">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleInputPassword1" rows="3" placeholder="Address"></textarea>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input">
+                                        Institute of Science, BHU Student </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" checked="checked">
+                                        Include A T-shirt </label>
+                                </div>
+                            </fieldset>
+                            <br>
+                            <hr>
+                            <br>
+                            <div id="tshirt-div">
+                                <div class="container">
+                                    <h2 class="text-center">Select T-shirt Style</h2><br><br>
+                                    <div class="row">
+                                        <div class="col-md-6" style="text-align:center;">
+
+                                            <input type="radio" name="options" id="option1" style="visibility:hidden;" class="input-hidden">
+                                            <label for="option1">
+                                                <img src="img/option1.jpg" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
+                                            </label>
+
+                                        </div>
+                                        <div class="col-md-6" style="text-align:center;">
+                                            <input type="radio" name="options" id="option2" style="visibility:hidden;" class="input-hidden" />
+                                            <label for="option2">
+                                                <img src="img/option2.jpg" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6" style="text-align:center;">
+                                            <input type="radio" name="options" id="option3" style="visibility:hidden;" class="input-hidden">
+                                            <label for="option3">
+                                                <img src="img/option3.png" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6" style="text-align:center;">
+                                            <input type="radio" name="options" id="option4" style="visibility:hidden;" class="input-hidden">
+                                            <label for="option4">
+                                                <img src="img/option4.png" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
 </section>
 <div class="modal modal-custom" id="modal-lectures">
     <div class="modal-dialog modal-lg" role="document">
@@ -367,262 +439,9 @@
         </div>
     </div>
 </div>
-<div class="modal modal-custom" id="modal-register">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title text-center">Register Now!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-8"><br>
-                            <legend>Fill in your details</legend>
-                            <br>
-                            <br>
-                            <form>
-                                <fieldset>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control form-control-label" id="register-name"
-                                               placeholder="Full Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="register-email"
-                                               aria-describedby="emailHelp" placeholder="Email">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="register-phone"
-                                               placeholder="Phone No.">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="register-university"
-                                               placeholder="University">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="register-college"
-                                               placeholder="College/Institute/Faculty">
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" id="register-course"
-                                                  placeholder="Course (B.Sc/M.Sc/MCA/B.Tech/etc)"></input>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input">
-                                            Are you a student of Institute of Science, Banaras Hindu University ?
-                                        </label>
-                                    </div>
-                                </fieldset>
-                                <br>
-                                <hr>
-                                <br>
-                                <fieldset class="form-group">
-                                    <legend>Order Birtex T-Shirt</legend>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="radio" class="form-check-input" name="optionsRadios"
-                                                   id="optionsRadios1" value="1" checked="true">
-                                            Yeah! </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input type="radio" class="form-check-input" name="optionsRadios"
-                                                   id="optionsRadios2" value="2">
-                                            I don't need one </label>
-                                    </div>
-                                </fieldset>
-                                <div id="tshirt-div">
-                                    <fieldset class="form-group">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input type="radio" class="form-check-input"
-                                                                   name="optionsRadiosTshirt" id="optionsRadios11"
-                                                                   value="option1" checked="">
-                                                            <div class="card card-inverse card-primary">
-                                                                <div class="card-block">
-                                                                    <h6 class="card-title">Option 1</h6>
-                                                                    <img src="img/option1.jpg" class="img-fluid"></div>
-                                                            </div>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-check">
-                                                        <label class="form-check-label">
-                                                            <input type="radio" class="form-check-input"
-                                                                   name="optionsRadiosTshirt" id="optionsRadios12"
-                                                                   value="option2">
-                                                            <div class="card card-inverse card-primary">
-                                                                <div class="card-block">
-                                                                    <h6 class="card-title">Option 2</h6>
-                                                                    <img src="img/option2.jpg" class="img-fluid"></div>
-                                                            </div>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </fieldset>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-5"></div>
-                                        <div class="col-sm-2">
-                                            <input class="btn btn-primary" type="submit" value="Register"/>
-                                        </div>
-                                        <div class="col-md-5"></div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!--container-->
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-<<<<<<< HEAD
-<section id="aboutus">
-    <div class="panel-custom top-padded">
-        <h1 class="display-4 text-center">About Us</h1>
-        <br/>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <div class="">
-                        <div class="card-block text-center">
-                            <h2 class="bitlow-font">BITREX'17</h2>
-                            <div class="row">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4"><img src="img/Bitrex10x.png" class="img-fluid"></div>
-                                <div class="col-md-4"></div>
-                            </div>
-                            <br/>
-                            <br/>
-                            <h6> Creation, Learning and Experience. With these goals the Department of Computer Science,
-                                BHU presents BITREX our annual Technical Fest.
-                                Bitrex i.e the king of bits, is an endeavour to establish a technical cult and create
-                                tech-friendly enviornment where we can unveil new talents and glorify the ones already
-                                existing.</h6>
-                            <h6>We at Bitrex want to prepare a platform for our beginners to dig deeper into the bits of
-                                computer science and technology and provide a stage to our veterans where they can claim
-                                their kingship of the subject through various competitions. Furthurmore, we aspire for
-                                an enviornment, where individuals can enhance their skills, take a closer look at
-                                different arenas of the tech world through workshops, learn from some eminent
-                                personalities through talks and above all use their knowledge and skills of this
-                                discipline to inspire and work for a better tomorrow.</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3"></div>
-            </div>
-        </div>
-    </div>
-    <br/>
-    <br/>
-=======
 
 
 
-<section id="registration">
-  <div class="panel-custom top-padded">
-    <h1 class="display-2 text-center" >Registration</h1>
-    <br/>
-    <br/>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8"> <br>
-              <legend>Fill in your details</legend>
-              <br>
-              <br>
-              <form>
-                <fieldset>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-control-label" id="exampleInputPassword1" placeholder="Full Name">
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="University">
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="College/Institute/Faculty">
-                  </div>
-                  <div class="form-group">
-                    <textarea class="form-control" id="exampleInputPassword1" rows="3" placeholder="Address"></textarea>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input">
-                      Department of Computer Science, BHU Student </label>
-                  </div>
-                    <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" checked="checked">
-                      Include A T-shirt </label>
-                  </div>
-                </fieldset>
-                <br>
-                <hr>
-                <br>
-                <div id="tshirt-div">
-                <div class="container">
-                   <h2 class="text-center">Select T-shirt Style</h2><br><br>
-                    <div class="row">
-                        <div class="col-md-6" style="text-align:center;">
-                           
-                            <input type="radio" name="options" id="option1" style="visibility:hidden;" class="input-hidden"> 
-                            <label for="option1">
-                                <img src="img/option1.jpg" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
-                            </label>
-                           
-                        </div>
-                        <div class="col-md-6" style="text-align:center;">
-                            <input type="radio" name="options" id="option2" style="visibility:hidden;" class="input-hidden" /> 
-                            <label for="option2">
-                                <img src="img/option2.jpg" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
-                            </label>                
-                        </div>
-                    </div>
-                       
-                    <div class="row">
-                        <div class="col-md-6" style="text-align:center;">
-                            <input type="radio" name="options" id="option3" style="visibility:hidden;" class="input-hidden">
-                            <label for="option3">
-                                <img src="img/option3.png" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
-                            </label>                                       
-                        </div>
-                        <div class="col-md-6" style="text-align:center;">
-                            <input type="radio" name="options" id="option4" style="visibility:hidden;" class="input-hidden"> 
-                            <label for="option4">
-                                <img src="img/option4.png" alt="" class="img-fluid" style="cursor:pointer;"><br><br>
-                            </label>                                       
-                        </div>
-                                                
-                    </div>
-                </div>
-              </div>
-            </form>
 
 
 <section id="aboutus">
@@ -655,7 +474,6 @@
   </div>
   <br/>
   <br/>
->>>>>>> 547715c2b7a73bd60902e0ece1a73bb4a8b9687d
 </section>
               </div>
             </div>
