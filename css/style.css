@@ -68,27 +68,27 @@ a {
 }
 a :hover {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 }
 a :visited {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 }
 a :focus {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 }
 .card-a {
-	color: white;
+	color: #ffffff;
 	font-size: 18px;
 }
 .card-a :hover {
-	color: white;
+	color: #fffff;
 	font-size: 18px;
 	text-decoration: none;
 }
 .card-a :visited {
-	color: white;
+	color: #ffffff;
 	font-size: 18px;
 	text-decoration: none;
 }

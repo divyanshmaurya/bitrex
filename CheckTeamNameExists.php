@@ -9,7 +9,7 @@
 /**
  * Description of CheckTeamNameExists
  *
- * @author root
+ * @author divyansh
  */
 require_once 'database/Database.php';
 class CheckTeamNameExists {
